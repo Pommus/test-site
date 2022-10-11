@@ -1,0 +1,11 @@
+body {
+		background-color: #e8d8a5;
+		color: #452923;
+		font-family: Georgia, Verdana;
+		font-size: 115%;
+		margin: auto;
+}
+
+#hiddenShit {
+		display: none;	
+}
