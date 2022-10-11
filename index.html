@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  	<head>
+        <title>Hi</title>
+  	</head>
+  	<body>
+    	<p>Hello this is a test</p>
+    	<button onClick="hideTheShit()">Press me</button>
+    	<p id="hiddenShit">This is some test shit</p>
+		<script>
+		  	function hideTheShit() {
+				var shit = document.getElementById("hiddenShit");
+				if (shit.style.display === "none") {
+			  		shit.style.display = "";
+				} else {
+			  		shit.style.display = "none";
+				}
+		  	}
+		</script>
+	</body>
+</html>
