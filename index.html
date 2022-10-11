@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html>
   	<head>
-        <title>Hi</title>
+        	<title>Hi</title>
+		<style>
+			body {
+				background-color: #e8d8a5;
+				color: #452923;
+				font-family: Georgia, Verdana;
+				font-size: 115%;
+				margin: auto;
+			}
+			
+			#hiddenShit {
+				display: none;	
+			}
+		</style>
   	</head>
   	<body>
-    	<p>Hello this is a test</p>
-    	<button onClick="hideTheShit()">Press me</button>
-    	<p id="hiddenShit">This is some test shit</p>
+		<p>Hello this is a test</p>
+		<button onClick="hideTheShit()">Press me</button>
+		<p id="hiddenShit">This is some test shit</p>
 		<script>
 		  	function hideTheShit() {
 				var shit = document.getElementById("hiddenShit");
